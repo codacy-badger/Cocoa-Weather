@@ -1,0 +1,66 @@
+
+/* Class = "NSTabViewItem"; label = "Advanced"; ObjectID = "0oH-9a-Isx"; */
+"0oH-9a-Isx.label" = "Advanced";
+
+/* Class = "NSTextFieldCell"; title = "Cocoa Weather"; ObjectID = "4mn-WK-rJl"; */
+"4mn-WK-rJl.title" = "Cocoa Weather";
+
+/* Class = "NSTextFieldCell"; title = "Developed by zhs852"; ObjectID = "5RQ-1e-a7A"; */
+"5RQ-1e-a7A.title" = "Developed by zhs852";
+
+/* Class = "NSMenuItem"; title = "30 Min"; ObjectID = "97P-HE-0XV"; */
+"97P-HE-0XV.title" = "30 Min";
+
+/* Class = "NSTextFieldCell"; title = "Unit:"; ObjectID = "AOK-qY-dXX"; */
+"AOK-qY-dXX.title" = "Unit:";
+
+/* Class = "NSMenuItem"; title = "6 H"; ObjectID = "EpT-Ia-bZA"; */
+"EpT-Ia-bZA.title" = "6 H";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Preferences";
+
+/* Class = "NSTextFieldCell"; title = "Refresh Frequency:"; ObjectID = "HEu-wM-g1l"; */
+"HEu-wM-g1l.title" = "Refresh Frequency:";
+
+/* Class = "NSTextFieldCell"; title = "City:"; ObjectID = "KHJ-KP-AM9"; */
+"KHJ-KP-AM9.title" = "City:";
+
+/* Class = "NSButtonCell"; title = "Check Response Code"; ObjectID = "Ksh-xS-wHL"; */
+"Ksh-xS-wHL.title" = "Check Response Code";
+
+/* Class = "NSMenuItem"; title = "12 H"; ObjectID = "LBD-v8-8Vu"; */
+"LBD-v8-8Vu.title" = "12 H";
+
+/* Class = "NSMenuItem"; title = "3 H"; ObjectID = "NaB-0k-oEb"; */
+"NaB-0k-oEb.title" = "3 H";
+
+/* Class = "NSSegmentedCell"; VJz-iX-ipc.ibShadowedLabels[0] = "°C"; ObjectID = "VJz-iX-ipc"; */
+"VJz-iX-ipc.ibShadowedLabels[0]" = "°C";
+
+/* Class = "NSSegmentedCell"; VJz-iX-ipc.ibShadowedLabels[1] = "°F"; ObjectID = "VJz-iX-ipc"; */
+"VJz-iX-ipc.ibShadowedLabels[1]" = "°F";
+
+/* Class = "NSTabViewItem"; label = "Basic"; ObjectID = "bFn-rb-TF6"; */
+"bFn-rb-TF6.label" = "Basic";
+
+/* Class = "NSButtonCell"; title = "Push notification after refreshing"; ObjectID = "d3L-CZ-OoK"; */
+"d3L-CZ-OoK.title" = "Push notification after refreshing";
+
+/* Class = "NSTabViewItem"; label = "About"; ObjectID = "hSQ-1o-zbH"; */
+"hSQ-1o-zbH.label" = "About";
+
+/* Class = "NSButtonCell"; title = "Display temperature in menu bar"; ObjectID = "p9J-sB-eSW"; */
+"p9J-sB-eSW.title" = "Display temperature in menu bar";
+
+/* Class = "NSTextFieldCell"; title = "Custom API Key:"; ObjectID = "q6d-xI-0F4"; */
+"q6d-xI-0F4.title" = "Custom API Key:";
+
+/* Class = "NSTextFieldCell"; title = "Aotake"; ObjectID = "rPr-Er-o2c"; */
+"rPr-Er-o2c.title" = "Aotake";
+
+/* Class = "NSButtonCell"; title = "Reset All Settings"; ObjectID = "rkn-4e-XkG"; */
+"rkn-4e-XkG.title" = "Reset All Settings";
+
+/* Class = "NSMenuItem"; title = "1 H"; ObjectID = "wPi-hG-O8X"; */
+"wPi-hG-O8X.title" = "1 H";

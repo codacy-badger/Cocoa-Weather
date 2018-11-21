@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Cocoa_Weather" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="bb6-mT-Des" customClass="StatusMenuController" customModule="Cocoa_Weather">
+            <connections>
+                <outlet property="statusMenu" destination="PdR-WR-2fo" id="A1N-YB-5XA"/>
+                <outlet property="titleMenuItem" destination="BuW-fC-xoy" id="dmK-Wk-8aK"/>
+                <outlet property="weatherView" destination="Jbv-ft-wBw" id="jRv-yT-afs"/>
+            </connections>
+        </customObject>
+        <menu id="PdR-WR-2fo">
+            <items>
+                <menuItem title="Cocoa Weather" enabled="NO" id="BuW-fC-xoy">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="tH0-g6-tGu"/>
+                <menuItem title="Weather" id="P7l-Id-fC2">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="SIW-vQ-WLb"/>
+                <menuItem title="Refresh" id="sG4-6n-dv6">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="refreshClicked:" target="bb6-mT-Des" id="c15-wH-SIL"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Preferences..." id="UbO-hh-IkR">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesClicked:" target="bb6-mT-Des" id="BHC-im-BU4"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="yJP-6e-ptW"/>
+                <menuItem title="Exit" id="DMS-nZ-wqi">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="bb6-mT-Des" id="D7Z-1c-cFM"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="138" y="195.5"/>
+        </menu>
+        <customView id="Jbv-ft-wBw" customClass="WeatherView" customModule="Cocoa_Weather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="199" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-oU-Cpr">
+                    <rect key="frame" x="19" y="40" width="163" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="City" id="sh7-af-raz">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZiO-tq-cwP">
+                    <rect key="frame" x="19" y="20" width="163" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Weather condition" id="fCD-kc-aBn">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="INW-xE-Qrx">
+                    <rect key="frame" x="19" y="1" width="84" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Last Refresh:" id="qXr-DL-yxx">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oTz-Qj-iue">
+                    <rect key="frame" x="100" y="0.0" width="70" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="QSw-vd-B3S"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Never" id="eJt-hE-BXF">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="PUV-oU-Cpr" firstAttribute="top" secondItem="Jbv-ft-wBw" secondAttribute="top" id="7Ub-QP-V6v"/>
+                <constraint firstItem="ZiO-tq-cwP" firstAttribute="trailing" secondItem="oTz-Qj-iue" secondAttribute="trailing" constant="12" id="ChL-qG-PId"/>
+                <constraint firstItem="oTz-Qj-iue" firstAttribute="leading" secondItem="INW-xE-Qrx" secondAttribute="trailing" constant="1" id="Fxv-mG-eMm"/>
+                <constraint firstItem="PUV-oU-Cpr" firstAttribute="leading" secondItem="Jbv-ft-wBw" secondAttribute="leading" constant="21" id="JOw-bB-D18"/>
+                <constraint firstItem="PUV-oU-Cpr" firstAttribute="trailing" secondItem="ZiO-tq-cwP" secondAttribute="trailing" id="Jiv-Al-5na"/>
+                <constraint firstItem="ZiO-tq-cwP" firstAttribute="leading" secondItem="INW-xE-Qrx" secondAttribute="leading" id="Q59-hB-gLq"/>
+                <constraint firstItem="INW-xE-Qrx" firstAttribute="baseline" secondItem="oTz-Qj-iue" secondAttribute="firstBaseline" id="Qf3-In-cpm"/>
+                <constraint firstItem="INW-xE-Qrx" firstAttribute="centerY" secondItem="oTz-Qj-iue" secondAttribute="centerY" id="Qh6-Vc-Ow9"/>
+                <constraint firstItem="PUV-oU-Cpr" firstAttribute="leading" secondItem="ZiO-tq-cwP" secondAttribute="leading" id="YZf-OG-pSJ"/>
+                <constraint firstItem="INW-xE-Qrx" firstAttribute="firstBaseline" secondItem="oTz-Qj-iue" secondAttribute="firstBaseline" id="b4a-5b-eyb"/>
+                <constraint firstAttribute="bottom" secondItem="oTz-Qj-iue" secondAttribute="bottom" id="sXA-Lz-TCy"/>
+                <constraint firstItem="ZiO-tq-cwP" firstAttribute="top" secondItem="Jbv-ft-wBw" secondAttribute="top" constant="20" symbolic="YES" id="vaU-cS-LY5"/>
+            </constraints>
+            <connections>
+                <outlet property="cityTextField" destination="PUV-oU-Cpr" id="7Wj-Be-FDd"/>
+                <outlet property="currentConditionsTextField" destination="ZiO-tq-cwP" id="p2P-Q5-tcc"/>
+                <outlet property="lastRefreshTimeTextField" destination="oTz-Qj-iue" id="dgP-cy-cMQ"/>
+            </connections>
+            <point key="canvasLocation" x="-51" y="355"/>
+        </customView>
+    </objects>
+</document>

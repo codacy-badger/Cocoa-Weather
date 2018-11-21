@@ -1,0 +1,27 @@
+
+/* Class = "NSMenuItem"; title = "Cocoa Weather"; ObjectID = "BuW-fC-xoy"; */
+"BuW-fC-xoy.title" = "Cocoa Weather";
+
+/* Class = "NSMenuItem"; title = "Exit"; ObjectID = "DMS-nZ-wqi"; */
+"DMS-nZ-wqi.title" = "Exit";
+
+/* Class = "NSMenuItem"; title = "Weather"; ObjectID = "P7l-Id-fC2"; */
+"P7l-Id-fC2.title" = "Weather";
+
+/* Class = "NSMenuItem"; title = "Preferences"; ObjectID = "UbO-hh-IkR"; */
+"UbO-hh-IkR.title" = "Preferences...";
+
+/* Class = "NSTextFieldCell"; title = "Never"; ObjectID = "eJt-hE-BXF"; */
+"eJt-hE-BXF.title" = "Never";
+
+/* Class = "NSTextFieldCell"; title = "Weather condition"; ObjectID = "fCD-kc-aBn"; */
+"fCD-kc-aBn.title" = "Weather condition";
+
+/* Class = "NSTextFieldCell"; title = "Last Refresh:"; ObjectID = "qXr-DL-yxx"; */
+"qXr-DL-yxx.title" = "Last Refresh:";
+
+/* Class = "NSMenuItem"; title = "Refresh"; ObjectID = "sG4-6n-dv6"; */
+"sG4-6n-dv6.title" = "Refresh";
+
+/* Class = "NSTextFieldCell"; title = "City"; ObjectID = "sh7-af-raz"; */
+"sh7-af-raz.title" = "City";

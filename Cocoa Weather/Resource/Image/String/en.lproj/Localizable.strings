@@ -1,0 +1,35 @@
+/* 
+  StatusMenuController.strings
+  Cocoa Weather
+
+  Created by zhs852 on 2018/10/28.
+  Copyright © 2018年 zhs852. All rights reserved.
+*/
+
+"Weather Refreshed" = "Weather Refreshed";
+
+"Help" = "Help";
+
+"APIKeyHelp" = "You can type your own OpenWeatherMap API Key here.\nIf weather data keeps being not refreshed, try to use custom API Key.";
+
+"OK" = "OK";
+
+"Caution" = "Caution";
+
+"FrenquencyChangedCaution" = "Restart app to apply frequency change.";
+
+"ResponseCode" = "Response Code: ";
+
+"0" = "Please check the network connection.";
+
+"200" = "All OK.";
+
+"400" = "Bad Request.";
+
+"401" = "Invalid API Key.";
+
+"404" = "No such a city.";
+
+"Reset" = "Reset";
+
+"ResetInfo" = "All user settings cleared.";

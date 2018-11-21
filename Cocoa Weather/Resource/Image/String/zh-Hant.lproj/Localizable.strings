@@ -1,0 +1,35 @@
+/* 
+  StatusMenuController.strings
+  Cocoa Weather
+
+  Created by zhs852 on 2018/10/28.
+  Copyright © 2018年 zhs852. All rights reserved.
+*/
+
+"Weather Refreshed" = "天氣已刷新";
+
+"Help" = "幫助訊息";
+
+"APIKeyHelp" = "閣下可以在此鍵入自訂 OpenWeatherMap API Key。\n當刷新不正常時，可以嘗試使用自訂 API Key。";
+
+"OK" = "好";
+
+"Caution" = "需要注意";
+
+"FrenquencyChangedCaution" = "重啟 Cocoa Weather 來應用此變更。";
+
+"ResponseCode" = "響應碼：";
+
+"0" = "請檢查網路狀況。";
+
+"200" = "一切正常。";
+
+"400" = "請求訊息有誤。";
+
+"401" = "API Key 無效。";
+
+"404" = "不存在這個城市。";
+
+"Reset" = "還原";
+
+"ResetInfo" = "已清除所有用戶設置。";
